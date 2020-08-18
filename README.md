@@ -1,0 +1,2 @@
+# nlp-in-tfjs
+  This example demonstrated loading a model and using it in the browser. This model is trained to predict the sentiment of a short restaurant review (as a score between 0 and 1). The training is done server side using Python and then converted into a TensorFlow.js model. The model is trained using YELP reviews that have been truncated to a maximum of 18 words, only the 2000 most used words in the reviews are used. You can experiment with the model on this page.
